@@ -1,0 +1,182 @@
+/**** Edited Bootstrap ****/
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fefefe;
+}
+
+  /**** Navigation ****/
+    .navbar-inner {
+      border-radius: 0;
+      min-height: 60px;
+    }
+    .navbar {
+      border-bottom: 1px solid #E07050;
+    }
+    .navbar .container {
+      max-width: 1170px;
+      margin-top: 10px;
+    }
+    .navbar-inverse .navbar-inner {
+      background: #ED7760;
+      /*background-image: -moz-linear-gradient(top, #ED7760, #EF5739);
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ED7760), to(#EF5739));
+      background-image: -webkit-linear-gradient(top, #ED7760, #EF5739);
+      background-image: -o-linear-gradient(top, #ED7760, #EF5739);
+      background-image: linear-gradient(to bottom, #ED7760, #EF5739);*/
+      background-repeat: repeat-x;
+      border-color: #ED7760;
+      /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ED7760', endColorstr='#EF5739', GradientType=0);*/
+    }
+    .navbar-inverse .brand,
+    .navbar-inverse .nav > li > a {
+      color: #fff7e8;
+    }
+    .navbar-inverse .brand:hover,
+    .navbar-inverse .nav > li > a:hover,
+    .navbar-inverse .brand:focus,
+    .navbar-inverse .nav > li > a:focus {
+      color: #000;
+    }
+    a.brand.pull-left {
+      padding-top: 6px;
+      width: 70%;
+    }
+
+/**** Other ****/
+@media (min-width: 1200px) {
+  [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 15px;
+  }
+
+/**** Helper ****/
+.center {
+  text-align: center;
+}
+
+/**** Navigation ****/
+div.container a.brand {
+  color: #fff;
+}
+div.container a.brand:hover {
+  color: #e0e0e0;
+}
+div.container ul.nav li a:hover {
+  color: #f0f0f0;
+}
+  /**** User Dashboard Navigation ****/
+  ul.nav.dashboard-nav.nav-tabs li a:hover{
+    color:#000;
+  }
+
+/**** Footer ****/
+.footer-container {
+  background: #fff;
+}
+ul.footer-links {
+  margin:10px 0;
+}
+ul.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+
+/**** Contact Form ****/
+.contact-message {
+  max-width: 1170px;
+}
+.contact-form input, .contact-form textarea  {
+  width: 41%;
+}
+.contact-form select{
+  width: 42%;
+}
+.contact-form input.btn {
+  width: 10%;
+}
+
+/**** Sign Up/In Form ****/
+.sign-up-form {
+  width: 100%;
+}
+.sign-up-form div.row, .sign-in-form div.row {
+  margin-left: -0.5em;
+}
+.sign-up-form input, .sign-in-form input{
+  width: 50%;
+}
+.sign-up-form select, .sign-in-form select {
+  width: 51.2%;
+}
+.sign-up-form .btn, .sign-in-form .btn, .user-update-form .btn {
+  width: 15%;
+  margin-left: 0.5em;
+}
+form#sign-up-form.sign-up-form p.alert.alert-error {
+  border-radius: 0;
+}
+p.alert.alert-error {
+  width: 47%;
+  margin: 0;
+  border: 0;
+  border-radius: 5px;
+}
+.validation-errors {
+  margin-bottom: 10px;
+}
+/**** Dashboard ****/
+.dashboard h1 {
+  margin:0;
+}
+.dashboard-form label {
+  font-weight: bold;
+  width:100%;
+}
+.dashboard-form input {
+  width: 100%;
+}
+.dashboard-form select {
+  width:103%;
+}
+.event-modal-form label {
+  font-weight: bold;
+  margin-left: 2.5%;
+  width:95%;
+}
+.event-modal-form input {
+  margin-left:2.5%;
+  width: 92.63%;
+}
+.event-modal-form select {
+  margin-left: 2.5%;
+  width:95%;
+}
+form.form-horizontal.dashboard-form label.control-label{
+  width: 170px;
+}
+.dashboard-form .btn {
+  width: 17%;
+  margin-left: 0em;
+}
+.dashboard-table td, .dashboard-table th {
+  text-align: left;
+}
+.dashboard-table td .badge {
+  float: right;
+  margin: 0;
+}
+/**** Events ****/
+.event-time select {
+  width: 15%;
+}
+.event-form p.alert.alert-error {
+  width: 90%;
+  margin-left: 32px;
+  border-radius: 0;
+}
+label.required {
+  color: #f00;
+}
