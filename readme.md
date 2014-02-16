@@ -5,12 +5,7 @@
 
 ASMS Events Management gives Australians the ability to rate members of parliament from their electorate.
 
-Users create an account, select their electorate and are given a list of candidate members for that electorate. There is no political bias and anyone running in the most previous and future elections will be included. If users have a new candidate in their area they fill in a form that alerts admins and the new candidate will be included in ASMS Events Management.
-
-Users rate candidates on the following:
-* Responsiveness to emails, phone calls and letters
-* Committment when sticking to election promises
-* Percieved corruption
+Users create an account, when invited to an event and are given a list of upcoming events they can attend. Users can attend other events but a lot of events are password protected to prevent uninvited users from attending. If an event does not have a password a user can attend the event. If users have an event they want to attend they click the attend button and the events coordinator will be informed of their status and other details around the user such as diet requirements and contact details.
 
 ###Technology Involved
 ASMS Events Management is made with Laravel v3. It uses the following technology:
